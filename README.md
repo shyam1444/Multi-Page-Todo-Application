@@ -123,6 +123,16 @@ All endpoints accept and return JSON payloads.
 
 ---
 
+## Screenshots
+
+### 🖥️ Dashboard Page (`index.html`)
+![Neat and elegant task dashboard](assets/screenshots/dashboard.png)
+
+### 📄 Task Details Page (`todo.html?id=<id>`)
+![Neat and elegant task details page](assets/screenshots/detail_view.png)
+
+---
+
 ## Setup & Running the Application
 
 Ensure you have **Node.js** (v18+) and **npm** installed.
