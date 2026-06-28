@@ -12,11 +12,11 @@ The system is split into two primary components:
 
 ```mermaid
 graph TD
-    subgraph Frontend (React / Vite MPA)
+    subgraph Frontend ["Frontend (React / Vite MPA)"]
         A[index.html / Dashboard] -->|User clicks item link| B[todo.html?id=ID / Detail View]
         B -->|Back Navigation| A
     end
-    subgraph Backend (Node.js & Express.js)
+    subgraph Backend ["Backend (Node.js & Express.js)"]
         C[Express Router] --> D[CRUD Handlers]
         D -->|Read / Write| E[(data/todos.json File DB)]
     end
